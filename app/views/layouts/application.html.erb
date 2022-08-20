@@ -9,10 +9,13 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
-<%= render 'home/navbar' %>
-
   <body>
-    <%= yield %>
+    <%= render 'home/navbar' %>
+    <div class="container">
+      <%= yield %>
+    <div class="container">
+
+      <br/><br/><br/><br/><br/>
+      <center>Copyright</center>
   </body>
 </html>
