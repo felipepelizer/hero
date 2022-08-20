@@ -5,7 +5,6 @@ ruby "3.1.2"
 
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 gem "sprockets-rails"
-gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
 gem "turbo-rails"
@@ -16,7 +15,7 @@ gem "bootsnap", require: false
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
-
+gem 'pg', '~> 1.4', '>= 1.4.3'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
