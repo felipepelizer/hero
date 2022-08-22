@@ -16,6 +16,9 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'pg', '~> 1.4', '>= 1.4.3'
+gem "sqlite3", "~> 1.4"
+gem 'faker', '~> 2.22'
+
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
